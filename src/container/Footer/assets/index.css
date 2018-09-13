@@ -1,0 +1,23 @@
+#footer {
+    position: relative;
+    margin-left: 100px;
+}
+
+
+.footer-section {
+  padding: 85px 0px;
+  background-color: black;
+  color: #8a8a8a;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.first-title {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 1em;
+    text-transform: none;
+    color:#fff;
+    margin-bottom: 53px;
+}
