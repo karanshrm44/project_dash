@@ -1,0 +1,77 @@
+.about-me {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 85px 0px;
+    
+
+}
+
+.parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#me blockquote {
+    margin-bottom: 100px;
+}
+
+#me p {
+    font-size: 38px;
+    line-height: 50px;
+    color:#000000;
+}
+
+#me footer {
+    margin-top:80px;
+}
+
+#me a {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: 600;
+    border-bottom: none;
+}
+#me  .lnr {
+    display: block;
+    position: relative;
+    font-weight: 600 !important;
+    padding-left: 2px;
+    transition: all .1s;
+    bottom: 21px;
+    left:110px;
+
+}
+
+#me .lnr:hover {
+   padding-left:15px;
+}
+
+#me blockquote p:first-of-type::before {
+    content: open-quote;
+}
+
+#me blockquote p:last-of-type::after {
+    content: close-quote;
+}
+
+@media (max-width:767px)
+{
+    #me blockquote {
+        margin-bottom: 60px;
+        font-size: 28px;
+        line-height: 40px;
+
+    }
+
+    #me footer {
+        margin-top:30px;
+    }
+}

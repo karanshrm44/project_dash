@@ -3,6 +3,8 @@ import FinalHeader from './FinalHeader';
 import Footer from './Footer';
 import Introduction from './Introduction';
 import Animations from './Animation';
+import Me from './Me';
+import Contact from './SubComponent/Contact';
 
 class Home extends React.Component {
 
@@ -30,6 +32,9 @@ class Home extends React.Component {
          this.state.show ? <Animations /> :
             <React.Fragment>
                <FinalHeader />
+               <Contact />
+
+               <Me />
                <Introduction />
                <Footer />
             </React.Fragment>

@@ -11,7 +11,7 @@ ul {
     }
 
 
-a {
+a:hover {
     text-decoration: none;
 }
 

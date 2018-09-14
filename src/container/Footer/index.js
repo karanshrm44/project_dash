@@ -7,7 +7,7 @@ class Footer extends React.Component {
     render(){
         return(
             <div id="footer" className="footer-section" style={{backgroundImage:`url(${logo})`}}>
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row">
                        <div className="col-lg-3">
                           <h2 className="first-title">Say hi!</h2>
