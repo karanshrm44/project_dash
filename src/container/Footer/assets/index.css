@@ -20,4 +20,27 @@
     text-transform: none;
     color:#fff;
     margin-bottom: 53px;
+    white-space: nowrap;
+}
+
+.footer-section .common-title {
+    color:#fff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.move-right {
+    margin-left:200px;
+}
+
+.move-right1 {
+    margin-left:80px;
+}
+
+@media(min-width:910px)
+{
+
 }

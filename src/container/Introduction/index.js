@@ -1,14 +1,15 @@
 import React from 'react';
 import Logo from './assets/main.png';
 import './assets/index.css';
+import backgrounds from './assets/background.png';
 
 class Introduction extends React.Component {
 
     render(){
         return(
-            <div className="introduction">
-                  <div className="container display">
-                      <img style={{marginBottom:'95px'}} src={Logo} alt="logo" width="100px" height="52px" />
+            <div className="display introduction" style={{background:`url(${backgrounds})`}}>
+                  <div className="container">
+                      <img style={{marginBottom:'95px'}} src={Logo} alt="logo" />
                       <h6>I have a simple mission</h6>
                       <blockquote>
                           <p>

@@ -9,15 +9,15 @@ class Footer extends React.Component {
             <div id="footer" className="footer-section" style={{backgroundImage:`url(${logo})`}}>
                 <div className="container-fluid">
                     <div className="row">
-                       <div className="col-md-3">
+                       <div className="col-lg-3">
                           <h2 className="first-title">Say hi!</h2>
                           <p>contact@yourwebsite.com</p>
                           <p>+533 4929 295</p>
                           <p>Copyright © 2017 Apolo. Designed by Ezwa Studio.</p>
                        </div>
 
-                       <div className="col-md-3">
-                         <div>
+                       <div className="col-lg-3">
+                         <div className="move-right">
                          <h2 className="common-title">Navigation</h2>
                          <ul>
                              <li>Home</li>
@@ -28,8 +28,8 @@ class Footer extends React.Component {
                          </ul>
                          </div>
                        </div>
-                       <div className="col-md-3">
-                         <div>
+                       <div className="col-lg-3">
+                         <div className="move-right1">
                           <h2 className="common-title">Information</h2>
                           <ul>
                               <li>Privacy Policy</li>
@@ -39,7 +39,8 @@ class Footer extends React.Component {
                           </ul>
                          </div>
                        </div>
-                       <div className="col-md-3"> 
+                       <div className="col-lg-3"> 
+
                           <h2 className="common-title">Subscribe NewsLetter</h2>
                           <form>
                               <input type="email" name="email" placeholder="Email Address" />

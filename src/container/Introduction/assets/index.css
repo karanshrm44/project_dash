@@ -1,22 +1,24 @@
 
 
 .display {
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-
+    text-align: center;
+   
 }
 
-.introduction h6{
+
+
+.display h6{
   text-transform: uppercase;
   margin-bottom: 25px;
   letter-spacing: 7px;
   font-size: 14px;
 }
 
-.introduction blockquote {
+.display blockquote {
     margin-top: 15px;
     font-size: 38px;
     line-height: 50px;
